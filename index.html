@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071936">
+<title>Happy Dussehra | Vijayadashami Wishes</title>
+<style>
+:root{--gold:#ffd45a;--orange:#ff7b22;--cream:#fff5dc;--night:#06142f;--panel:rgba(7,19,43,.62)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--cream);background:#071936;overflow-x:hidden}
+.hero{min-height:100vh;position:relative;isolation:isolate;display:flex;flex-direction:column;overflow:hidden;background:radial-gradient(ellipse at 50% 70%,#ff8a35 0%,#9b3c42 24%,#182c5b 56%,#06142f 83%)}
+.hero:before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(180deg,rgba(2,10,30,.12),transparent 50%,rgba(8,8,19,.72))}
+#fx{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px clamp(18px,5vw,70px);gap:18px}
+.brand{font-size:clamp(1.1rem,2.3vw,1.65rem);font-weight:bold;color:var(--gold);display:flex;align-items:center;gap:10px;letter-spacing:.04em}
+.brand-icon{font-size:2.1rem}
+.nav-actions{display:flex;gap:10px;align-items:center}
+button{font:inherit;cursor:pointer;border:0}
+.pill{border:1px solid rgba(255,212,90,.65);background:rgba(5,17,40,.45);color:var(--cream);border-radius:999px;padding:10px 16px}
+.pill:hover{background:rgba(255,212,90,.14)}
+.content{width:min(1000px,92%);margin:auto;text-align:center;padding:45px 0 130px;position:relative}
+.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.3em;font:600 .78rem Arial,sans-serif}
+h1{margin:12px 0 18px;line-height:.98;font-size:clamp(3.2rem,10vw,7.6rem);text-shadow:0 5px 0 #8a3019,0 0 35px rgba(255,183,44,.3)}
+h1 span{display:block;color:#fff4d1;font-style:italic;font-size:.55em;font-weight:normal;margin-bottom:15px;text-shadow:0 3px 20px #111}
+h1 strong{font-weight:normal;background:linear-gradient(#fff3a2 5%,#ffbf27 50%,#ed6a15 90%);color:transparent;background-clip:text;-webkit-background-clip:text}
+.ornament{color:var(--gold);font-size:1.5rem;letter-spacing:.4em;margin:12px 0}
+.message{max-width:660px;margin:0 auto 28px;font-size:clamp(1rem,2vw,1.3rem);line-height:1.7;color:#fff5e7;text-shadow:0 2px 8px #321a28}
+.primary{padding:15px 28px;border-radius:999px;color:#57220d;background:linear-gradient(135deg,#ffe887,#ffae23);font-weight:bold;box-shadow:0 0 30px rgba(255,183,35,.32);transition:transform .2s,box-shadow .2s}
+.primary:hover{transform:translateY(-3px);box-shadow:0 0 42px rgba(255,183,35,.55)}
+.scene{position:absolute;bottom:0;left:0;width:100%;height:clamp(100px,20vh,190px);pointer-events:none;z-index:-1;background:linear-gradient(0deg,#090c1a 0%,rgba(9,12,26,.2) 80%,transparent)}
+.temple{position:absolute;bottom:0;color:#0a1020;font-size:clamp(3rem,10vw,8rem);opacity:.8}
+.temple.left{left:3%}.temple.right{right:5%}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;width:min(1120px,92%);margin:-80px auto 45px;position:relative;z-index:2}
+.card{padding:22px 12px;border:1px solid rgba(255,201,66,.7);border-radius:20px;background:linear-gradient(145deg,rgba(16,19,34,.96),rgba(25,14,22,.9));text-align:center;box-shadow:0 12px 35px #03091466;backdrop-filter:blur(10px)}
+.card .emoji{font-size:2rem;display:block;margin-bottom:9px}
+.card h2{font-size:1.05rem;margin:0 0 6px;color:#ffe7a0}
+.card p{margin:0;font-size:.9rem;line-height:1.45;color:#eadfcf}
+footer{text-align:center;padding:15px 15px 30px;color:#d7c6b5;font-size:.9rem}
+footer span{color:var(--gold)}
+#toast{position:fixed;bottom:24px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#fff0c8;color:#3c1b0c;padding:12px 18px;border-radius:12px;box-shadow:0 8px 30px #0005;transition:.25s;z-index:10;text-align:center;max-width:90vw}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+.light-mode .hero{background:radial-gradient(ellipse at 50% 70%,#ffca71 0%,#e96b47 32%,#566e9f 70%,#233c68 100%)}
+.light-mode .hero:before{background:linear-gradient(180deg,rgba(12,28,61,.08),transparent 55%,rgba(8,8,19,.4))}
+@media(max-width:700px){nav{padding:16px;align-items:flex-start}.brand{font-size:1rem}.brand-icon{font-size:1.6rem}.pill{padding:8px 10px;font-size:.85rem}.content{padding:70px 0 125px}.cards{grid-template-columns:repeat(2,1fr);margin-top:-60px}.card{padding:18px 10px}.message{padding:0 8px}}
+@media(max-width:380px){.nav-actions{gap:5px}.pill{padding:7px 8px}.cards{gap:9px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main class="hero" id="home">
+  <canvas id="fx" aria-hidden="true"></canvas>
+  <nav>
+    <div class="brand"><span class="brand-icon">🏹</span><span>HAPPY<br>DUSSEHRA</span></div>
+    <div class="nav-actions">
+      <button class="pill" id="themeBtn" aria-label="Toggle day and night theme">☀️ / 🌙</button>
+      <button class="pill" id="musicBtn" aria-pressed="false">🔊 Music: Off</button>
+    </div>
+  </nav>
+  <section class="content">
+    <div class="eyebrow">✨ The festival of victory ✨</div>
+    <h1><span>Happy</span><strong>Dussehra</strong></h1>
+    <div class="ornament">✦ ━━━ ❖ ━━━ ✦</div>
+    <p class="message">May the victory of good over evil fill your life with courage, peace, prosperity and happiness. Wishing you and your family a joyful and blessed Vijayadashami!</p>
+    <button class="primary" id="wishBtn">Spread Positivity ✨</button>
+  </section>
+  <div class="scene" aria-hidden="true"><span class="temple left">🛕</span><span class="temple right">🪔</span></div>
+</main>
+<section class="cards" aria-label="Dussehra values">
+  <article class="card"><span class="emoji">🪷</span><h2>Victory of Good</h2><p>May goodness always win.</p></article>
+  <article class="card"><span class="emoji">🏹</span><h2>Strength in Life</h2><p>Face every challenge with courage.</p></article>
+  <article class="card"><span class="emoji">🪔</span><h2>Light over Darkness</h2><p>Let hope brighten every path.</p></article>
+  <article class="card"><span class="emoji">❤️</span><h2>Happiness for All</h2><p>Share kindness and joy.</p></article>
+</section>
+<footer>Made with <span>♥</span> for a bright and beautiful Dussehra · <span>Shubh Vijayadashami!</span></footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script>
+const canvas=document.getElementById('fx'),ctx=canvas.getContext('2d');
+let w,h,particles=[],rockets=[],running=true;
+function resize(){const dpr=Math.min(window.devicePixelRatio||1,2);w=canvas.clientWidth;h=canvas.clientHeight;canvas.width=w*dpr;canvas.height=h*dpr;ctx.setTransform(dpr,0,0,dpr,0,0);particles=[]}
+window.addEventListener('resize',resize);resize();
+function burst(x,y){const colors=['#ffe58a','#ff9a32','#ff5d69','#9ad8ff','#fff7e1'];for(let i=0;i<65;i++){const a=Math.random()*Math.PI*2,s=1+Math.random()*4;particles.push({x,y,vx:Math.cos(a)*s,vy:Math.sin(a)*s,life:45+Math.random()*35,max:80,color:colors[Math.floor(Math.random()*colors.length)],r:1+Math.random()*2})}}
+function launch(){rockets.push({x:Math.random()*w,y:h+5,vx:(Math.random()-.5)*2,vy:-4-Math.random()*3,target:h*(.18+Math.random()*.38)})}
+let tick=0;
+function frame(){ctx.clearRect(0,0,w,h);tick++;
+ if(tick%70===0)launch();
+ rockets=rockets.filter(r=>{r.x+=r.vx;r.y+=r.vy;r.vy+=.035;ctx.fillStyle='#ffe9a2';ctx.beginPath();ctx.arc(r.x,r.y,2,0,Math.PI*2);ctx.fill();if(r.y<r.target||r.vy>0){burst(r.x,r.y);return false}return true});
+ particles=particles.filter(p=>p.life>0);particles.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.vx*=.985;p.vy=p.vy*.985+.025;p.life--;ctx.globalAlpha=Math.max(0,p.life/p.max);ctx.fillStyle=p.color;ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill()});ctx.globalAlpha=1;
+ if(running)requestAnimationFrame(frame)}
+frame();
+const toast=document.getElementById('toast');let toastTimer;
+function notify(msg){toast.textContent=msg;toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>toast.classList.remove('show'),2800)}
+document.getElementById('wishBtn').addEventListener('click',async()=>{burst(w*.5,h*.35);burst(w*.35,h*.42);burst(w*.65,h*.42);const text='✨ Happy Dussehra! May the victory of good over evil bring you courage, peace, prosperity and happiness. Shubh Vijayadashami! 🪔';try{if(navigator.share){await navigator.share({title:'Happy Dussehra',text})}else if(navigator.clipboard){await navigator.clipboard.writeText(text);notify('Greeting copied! Share it with your loved ones.')}else{notify(text)}}catch(e){if(e.name!=='AbortError')notify(text)}});
+document.getElementById('themeBtn').addEventListener('click',()=>{document.body.classList.toggle('light-mode');notify(document.body.classList.contains('light-mode')?'Warm sunset theme enabled':'Night festival theme enabled')});
+// Optional, user-initiated synthesized festive chime; no external audio files required.
+let audioCtx=null,musicTimer=null,musicOn=false;
+function chime(){if(!audioCtx||!musicOn)return;const now=audioCtx.currentTime;[523.25,659.25,783.99].forEach((f,i)=>{const osc=audioCtx.createOscillator(),gain=audioCtx.createGain();osc.type='sine';osc.frequency.value=f;gain.gain.setValueAtTime(.0001,now+i*.22);gain.gain.exponentialRampToValueAtTime(.055,now+i*.22+.03);gain.gain.exponentialRampToValueAtTime(.0001,now+i*.22+.45);osc.connect(gain);gain.connect(audioCtx.destination);osc.start(now+i*.22);osc.stop(now+i*.22+.5)})}
+document.getElementById('musicBtn').addEventListener('click',async()=>{const btn=document.getElementById('musicBtn');if(!musicOn){audioCtx=audioCtx||new(window.AudioContext||window.webkitAudioContext)();await audioCtx.resume();musicOn=true;chime();musicTimer=setInterval(chime,2400);btn.textContent='🔔 Music: On';btn.setAttribute('aria-pressed','true')}else{musicOn=false;clearInterval(musicTimer);btn.textContent='🔊 Music: Off';btn.setAttribute('aria-pressed','false')}});
+</script>
+</body>
+</html>
